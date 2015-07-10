@@ -13,6 +13,7 @@
 - title
 - 底部导航
 - 左侧栏
+
 *Tips:* 功能参考各大APP，如QQ、网易等，UI基于martial design库，icon使用fontawesome。
 
 ##合作规范##
