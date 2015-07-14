@@ -24,6 +24,7 @@
 
 ## 涉及框架及其功能
 * fresco - Facebook 强大的图片框架，实现了异步加载和自动回收内存功能
+
 > * 官网：[http://frescolib.org/index.html][1]
 
 > * CN官网：[http://fresco-cn.org/][2]
