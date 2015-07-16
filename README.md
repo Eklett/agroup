@@ -10,6 +10,7 @@
 - 首页(/index)
 - 登录(/login)（南京-zing）
 - 登出(/logout)（南京-zing）
+- 注册(/reg)
 - title
 - 底部导航
 - 左侧栏
