@@ -14,10 +14,11 @@
 - 底部导航
 - 左侧栏
 
-*Tips:* 功能参考各大APP，如QQ、网易等，UI基于martial design库，icon使用fontawesome。
+*Tips:* 功能参考各大APP，如QQ、网易等，UI基于martial design库，**icon使用fontawesome**。
 
 ## 合作规范
 
+- 服务器端API请移步根目录下的[API.md](https://github.com/bingblue/agroup/blob/master/API.md)
 - 认领功能，不要重复完成
 - 代码规范可以在此提出
 - git新建 dev 分支
