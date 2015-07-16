@@ -7,12 +7,16 @@
 
 ## API解释 (如果你需要某个API请在此提出)
 
+*Tips:*  **请先在本地模拟数据**
+
 ### 登录/登出(/login)（南京-zing）
+1. 登录
+
 ```js
 //请求
 url:"www.bingblue.com/api/login",
 type:"POST",
-data:{userName:"xxx",userPwd:"***"},
+data:{userName:"xxx",userPwd:"***"}
 
 //返回数据 json
 {
@@ -32,4 +36,18 @@ data:{userName:"xxx",userPwd:"***"},
     regDate:"1000083788", //注册时间 ISODate("2015-07-15T05:47:31.743Z")
   }
 }
-*Tips:*   
+```
+
+### 注册(/reg) 
+1. 检查用户名是否重复
+
+```js
+//请求
+url:"www.bingblue.com/api/isRepeatByName",
+type:"POST",
+data:{userName:"xxx"}
+
+//返回数据 json
+{
+  valid: false //false 用户名重复，不能注册，true 可以注册
+}
